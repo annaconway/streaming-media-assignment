@@ -14,16 +14,16 @@ const onRequest = (request, response) => {
     case '/party.mp4':
       mediaHandler.getParty(request, response);
       break;
-      case '/bird.mp4':
+    case '/bird.mp4':
       mediaHandler.getBird(request, response);
       break;
-      case '/bling.mp4':
+    case '/bling.mp4':
       mediaHandler.getBling(request, response);
       break;
     case '/page2':
       htmlHandler.getIndex2(request, response);
       break;
-    case '/page3':      
+    case '/page3':
       htmlHandler.getIndex3(request, response);
       break;
     default:

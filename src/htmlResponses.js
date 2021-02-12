@@ -23,5 +23,5 @@ const getIndex3 = (request, response) => {
 };
 
 module.exports.getIndex = getIndex;
-module.exports.getIndex = getIndex2;
-module.exports.getIndex = getIndex3;
+module.exports.getIndex2 = getIndex2;
+module.exports.getIndex3 = getIndex3;
