@@ -21,8 +21,10 @@ const onRequest = (request, response) => {
       mediaHandler.getBling(request, response);
       break;
     case '/page2':
+      htmlHandler.getIndex2(request, response);
       break;
-    case '/page3':
+    case '/page3':      
+      htmlHandler.getIndex3(request, response);
       break;
     default:
       htmlHandler.getIndex(request, response);
